@@ -1,4 +1,10 @@
 allow_embedding: false
+db_schema:
+  table_1:
+    client: none
+    columns: []
+    server: full
+    title: Table 1
 dependencies:
 - config: {}
   dep_id: dep_lin1x4oec0ytd
@@ -16,3 +22,4 @@ services:
 - client_config: {}
   server_config: {}
   source: /runtime/services/tables.yml
+startup_form: Form1
