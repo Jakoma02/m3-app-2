@@ -1,17 +1,20 @@
 components_by_slot:
   content:
-  - layout_properties: {}
-    name: text_1
+  - components: []
+    layout_properties: {}
+    name: content
     properties: {}
-    type: form:dep_lin1x4oec0ytd:_Components.Text
-  - layout_properties: {}
-    name: text_2
-    properties: {}
-    type: form:dep_lin1x4oec0ytd:_Components.Text
+    type: ColumnPanel
   navigation:
-  - layout_properties: {}
-    name: link_1
-    properties: {}
-    type: form:dep_lin1x4oec0ytd:_Components.Link
+  - event_bindings: {click: navigation_link_1_click}
+    layout_properties: {}
+    name: navigation_link_1
+    properties: {text: Link 1}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
+  - event_bindings: {click: navigation_link_2_click}
+    layout_properties: {}
+    name: navigation_link_2
+    properties: {selected: false, text: Link 2}
+    type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
 is_package: true
 layout: {type: 'form:dep_lin1x4oec0ytd:Layouts.NavigationDrawerLayout'}
