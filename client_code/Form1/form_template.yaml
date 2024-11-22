@@ -17,4 +17,7 @@ components_by_slot:
     properties: {selected: false, text: Link 2}
     type: form:dep_lin1x4oec0ytd:_Components.NavigationLink
 is_package: true
-layout: {type: 'form:dep_lin1x4oec0ytd:Layouts.NavigationDrawerLayout'}
+layout:
+  properties:
+    content_padding: ['20', '8', '8', '8']
+  type: form:dep_lin1x4oec0ytd:Layouts.NavigationDrawerLayout
